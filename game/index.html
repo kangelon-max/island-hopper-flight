@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Island Hopper — a tiny flight school</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<canvas id="gl" aria-label="Island Hopper 3D flight view"></canvas>
+<canvas id="hud" aria-label="Flight instruments"></canvas>
+
+<div id="menu">
+  <h1>ISLAND HOPPER</h1>
+  <p class="tag">A tiny flight school over Pelican Island. One engine, one runway, no excuses.</p>
+  <div class="missions">
+    <button data-mission="rings">1 · Ring Course — thread all 8 rings</button>
+    <button data-mission="landing">2 · Landing Challenge — put her on the runway</button>
+    <button data-mission="free">3 · Free Flight — just fly</button>
+  </div>
+  <table class="keys">
+    <tr><td>W / S or Shift / Ctrl</td><td>throttle up / down</td><td>Arrow keys</td><td>pitch &amp; roll</td></tr>
+    <tr><td>Mouse move</td><td>steer (gentle)</td><td>A / D</td><td>rudder</td></tr>
+    <tr><td>C</td><td>cockpit / chase camera</td><td>B</td><td>brakes (on ground)</td></tr>
+    <tr><td>R</td><td>restart sortie</td><td>1 / 2 / 3</td><td>pick mission</td></tr>
+  </table>
+  <p class="hint">Watch your airspeed: below 24 m/s the wing stalls. Fuel burns with throttle — glide home if you must.</p>
+</div>
+
+<p id="status" role="status" aria-live="polite"></p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
