@@ -70,8 +70,8 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 This entry is for make.fun's "Make the best flight game" bounty:
 https://make.fun/bounty/best-flight-game-20261126-0057
 
-![make.fun bounty](https://make.fun/badge/best-flight-game-20261126-0057.svg)
-![entry rank](https://make.fun/badge/best-flight-game-20261126-0057/kangelon-max/island-hopper-flight/rank.svg)
-![entry reward](https://make.fun/badge/best-flight-game-20261126-0057/kangelon-max/island-hopper-flight/reward.svg)
+[![make.fun · best-flight-game-20261126-0057](https://make.fun/badge/best-flight-game-20261126-0057.svg)](https://make.fun/bounty/best-flight-game-20261126-0057?utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057)
+[![rank](https://make.fun/badge/best-flight-game-20261126-0057/kangelon-max/island-hopper-flight/rank.svg)](https://make.fun/bounty/best-flight-game-20261126-0057/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057)
+[![reward](https://make.fun/badge/best-flight-game-20261126-0057/kangelon-max/island-hopper-flight/reward.svg)](https://make.fun/bounty/best-flight-game-20261126-0057?utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057)
 
 Licensed under the MIT License (see `LICENSE`).
